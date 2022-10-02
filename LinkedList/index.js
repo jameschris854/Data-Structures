@@ -1,0 +1,17 @@
+const LinkedList = require('./LinkedList.js')
+
+const l = new LinkedList(3)
+l.push(10)
+l.push(6)
+l.push(5)
+console.log(l.toArr)
+l.pop()
+console.log(l.toArr)
+l.unShift(4)
+l.insert(2,9)
+l.remove(2)
+console.log(l.toArr)
+// console.log(l.get(0))
+
+console.log('reverse',l.reverse())
+console.log(l.toArr)
